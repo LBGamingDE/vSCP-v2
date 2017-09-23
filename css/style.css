@@ -8039,4 +8039,15 @@ html.ie11 .dropdown-menu ul.menu li a {
 
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
+/* Multi language site compatibillity date=23.09.2017 name=lb*/
+#languages {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    }
+    
+#languages img {
+    margin: 3px;
+    border: 0px;
+    }
 
