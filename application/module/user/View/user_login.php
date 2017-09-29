@@ -1,4 +1,8 @@
+<?php
+?>
+
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -6,8 +10,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> vSCP | Dashboard</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        
 
-    
     </head>
     <body>
         <div>Hello World</div>
