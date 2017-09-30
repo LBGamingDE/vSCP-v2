@@ -12,12 +12,41 @@ extract($_REQUEST);
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> vSCP | Dashboard</title>
+        <!-- Bootstrap CDN [lb ; 30.09.2017] -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+        <!-- Custom stylsheet [lb ; 30.09.2017] -->
+        <link rel="stylesheet" href="../../../css/loginpage.css">
 
     </head>
     <body>
-        <div>Hello World</div>
+        <hgroup>
+            <h1>vSCP Login</h1>
+            <h3>........</h3>
+        </hgroup>
+        <form>
+            <div class="group">
+                <input type="text"><span class="highlight"></span><span class="bar"></span>
+                <label>Name</label>
+            </div>
+            <div class="group">
+                <input type="email"><span class="highlight"></span><span class="bar"></span>
+                <label>Email</label>
+            </div>
+                <button type="button" class="button buttonBlue">Subscribe
+                <div class="ripples buttonRipples">
+                    <span class="ripplesCircle"></span>
+                </div>
+                </button>
+        </form>
+
+
+
+        <!-- <div class='container' >
+            <div class='row'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        <div>Hello World</div> -->
 
 
         
