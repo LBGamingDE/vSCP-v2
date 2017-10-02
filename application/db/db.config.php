@@ -1,9 +1,8 @@
 <?php
 // DB data [lb ; 29.09.2017]
-$sql_server = 'localhost';
+$sql_server = 'mysql:host=localhost;dbname=vscpdb';
 $sql_user = 'root';
 $sql_password = '';
-$sql_dbname = '';
 
 // Connect to db [lb ; 29.09.2017]
 try {

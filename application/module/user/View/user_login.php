@@ -1,7 +1,5 @@
 <?php
-extract($_REQUEST);
-//echo '<pre>';
-//var_dump($_REQUEST['']);
+include '../../../db/db.config.php';
 ?>
 
 <!DOCTYPE html>
@@ -23,18 +21,24 @@ extract($_REQUEST);
             <h1>vSCP Login</h1>
             <h3>........</h3>
         </hgroup>
+        <?php
+            include '../../../include/user_validate.inc.php';
+        ?>
         <form>
             <div class="group">
-                <input type="text"><span class="highlight"></span><span class="bar"></span>
-                <label>Name</label>
+                <input type="text" name="user_loginname" methode="POST">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Nutzername oder Email</label>
             </div>
             <div class="group">
-                <input type="email"><span class="highlight"></span><span class="bar"></span>
-                <label>Email</label>
+                <input type="password" methode="POST" name="user_password"> 
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label>Password</label>
             </div>
-                <button type="button" class="button buttonBlue">Subscribe
-                <div class="ripples buttonRipples">
-                    <span class="ripplesCircle"></span>
+                <button type="submit" class="button buttonBlue" name="user_Login" action="auth.php">
+                    Login
                 </div>
                 </button>
         </form>
